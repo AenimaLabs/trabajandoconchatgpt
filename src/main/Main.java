@@ -4,15 +4,15 @@ package main;
 import clases.ConvertidorMoneda;
 import clases.Dolar;
 import clases.Euro;
-import clases.GestorAplicacion;
-import clases.GestorEntradaSalida;
+import clases.GestorAplicacionMoneda;
+import clases.GestorEntradaSalidaMoneda;
 import interfaces.Moneda;
 
 public class Main {
 
 	public static void main(String[] args) {
 
-		GestorAplicacion gestorAplicacion = new GestorAplicacion();
+		GestorAplicacionMoneda gestorAplicacion = new GestorAplicacionMoneda();
 		gestorAplicacion.ejecutar();
 
 		/**

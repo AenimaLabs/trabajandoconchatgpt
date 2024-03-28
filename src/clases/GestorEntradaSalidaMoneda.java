@@ -2,14 +2,14 @@ package clases;
 
 import java.util.Scanner;
 
-public class GestorEntradaSalida {
+public class GestorEntradaSalidaMoneda {
 
 	private Scanner scanner;
 
 	/**
 	 * constructor de la clase GestorEntradaSalida abre el scanner
 	 */
-	public GestorEntradaSalida() {
+	public GestorEntradaSalidaMoneda() {
 		this.scanner = new Scanner(System.in);
 	}
 

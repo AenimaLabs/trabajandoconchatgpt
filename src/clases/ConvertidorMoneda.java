@@ -4,7 +4,7 @@ import interfaces.Moneda;
 
 public class ConvertidorMoneda {
 
-	private GestorEntradaSalida gestorEntradaSalida;
+	private GestorEntradaSalidaMoneda gestorEntradaSalida;
 
 	public void convertir(Moneda moneda, double cantidad) {
 		double cantidadConvertida = cantidad * moneda.factorConversion();
@@ -12,7 +12,7 @@ public class ConvertidorMoneda {
 
 	}
 
-	public ConvertidorMoneda(GestorEntradaSalida gestorEntradaSalida) {
+	public ConvertidorMoneda(GestorEntradaSalidaMoneda gestorEntradaSalida) {
 		this.gestorEntradaSalida = gestorEntradaSalida;
 	}
 

@@ -2,12 +2,12 @@ package clases;
 
 import interfaces.Moneda;
 
-public class GestorAplicacion {
-	private GestorEntradaSalida gestorES;
+public class GestorAplicacionMoneda {
+	private GestorEntradaSalidaMoneda gestorES;
 	private ConvertidorMoneda convertidor;
 
-	public GestorAplicacion() {
-		this.gestorES = new GestorEntradaSalida();
+	public GestorAplicacionMoneda() {
+		this.gestorES = new GestorEntradaSalidaMoneda();
 		this.convertidor = new ConvertidorMoneda(gestorES);
 	}
 
